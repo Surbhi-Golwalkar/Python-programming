@@ -1,7 +1,7 @@
 import smtplib as s
 ob = s.SMTP("smtp.gmail.com",587)
 ob.starttls()
-ob.login('surbhi.golwalkar2904@gmail.com','SuRbHi@999#*')
+ob.login('surbhi.golwalkar2904@gmail.com','SuRbHi*')
 subject = "PROJECT-2"
 body = "Sending e-mail using python"
 message = "Subject:{}\n\n{}".format(subject,body)

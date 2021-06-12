@@ -1,0 +1,1 @@
+print("{}\n{}".format(a//b, a/b))

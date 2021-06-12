@@ -1,0 +1,1 @@
+print("The course fee is:",course[a])
